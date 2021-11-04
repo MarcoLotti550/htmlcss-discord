@@ -6,15 +6,12 @@
 }
 /* sfondo menu */
 header{
-    position: fixed;
-    top: 0%;
-    left: 0%;
+    position: relative;
     width: 100%;
     height: 80px;
-    background-color: rgba(49, 97, 224, 1);
+    background-color: rgb(31, 95, 233);
     vertical-align: center;
     font-weight:bold;
-    z-index: 1;
 }
 /* menu */
 ul li{
@@ -24,18 +21,18 @@ ul li{
 a{
     text-decoration: none;
 }
+.accedi a:visited{
+    color: black;
+}
 nav{
-    position: absolute;
-    top: 0;
-    right: 0%;
     text-align: center;
     width: 100%;
 }
 nav ul a{
-    color: #fff;
+    color: rgb(255, 255, 255);
     margin: 25px;
     line-height: 80px;
-
+    z-index: 999;
 }
 .accedi{
     position: absolute;
@@ -52,7 +49,7 @@ nav ul a{
 }
 .menu a img{
     position: absolute;
-    top: 25px;
+    top: 30px;
     left: 300px;
     cursor: pointer;
 }
@@ -75,6 +72,7 @@ nav ul a{
     width: 70%;
     margin:40px auto ;
 }
+/* colore testo */
 .testo-download h1,
 .testo-download p,
 .pulsanti .browser{
@@ -87,6 +85,7 @@ nav ul a{
     left: 25%;
     text-align: center;
 }
+/* pulsanti tasti */
 .mac{
     background-color: white;
     line-height: 40px;
@@ -103,4 +102,39 @@ nav ul a{
     border-radius: 40px;
     color: #000;
     padding: 10px 15px;
+}
+.prima-box{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 700px;
+    left: 0%;
+}
+.box-study{
+    width: 70%;
+    height: 100%;
+    margin: 100px auto;
+    
+}
+.box-study .sinistra{
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+.box-study h1{   
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+.box-study .destra{
+    float: right;
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+}
+.prima-box::after{
+    clear: both;
+    display: block;
+    content: "";
 }
