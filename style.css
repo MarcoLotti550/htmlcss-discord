@@ -87,13 +87,19 @@ nav ul a{
 }
 /* pulsanti tasti */
 .mac{
-    background-color: white;
     line-height: 40px;
     text-align: center;
-    border-radius: 40px;
-    color: #000;
+    border-radius: 40px;   
     padding: 10px 20px;
     margin-right: 20px;
+}
+.alternativo1{
+    background-color: #fff;
+    color: #000;
+}
+.alternativo2{
+    background-color: rgb(106, 106, 212);
+    color: #fff;
 }
 .browser{
     background-color: rgb(43, 43, 43);
@@ -124,12 +130,14 @@ nav ul a{
     float: left;
 }
 .box-study h1,
-.box-chilling h1{   
-    font-size: 45px;
+.box-chilling h1,
+.box-tecnologia h1{   
+    font-size: 40px;
     vertical-align: middle;
 }
 .box-study p, 
-.box-chilling p{
+.box-chilling p,
+.box-tecnologia p{
     margin: 30px 0;
     line-height: 30px;
 }
@@ -142,7 +150,8 @@ nav ul a{
     margin: 30px 5%;
 }
 /* seconda box just chiling */
-.prima-box::after{
+.prima-box::after,
+.seconda-box::after{
     clear: both;
     display: block;
     content: "";
@@ -169,6 +178,42 @@ nav ul a{
 .destra2{
     float: right;
     width: 45%;
+}
+/* terza box */
+.terza-box{
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    top: 700px;
+    left: 0%;
+}
+.box-tecnologia{
+    padding: 10%;
+    width: 70%;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+}
+.box-tecnologia h1,
+.box-tecnologia p{
+    width: 90%;
+    margin: 20px auto;
+}
+.box-tecnologia h2{
+    margin: 50px 0;
+    font-size: 30px;
+}
+.stelle{
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.stelle img{
+    position: absolute;
+    top: -40px;
+    right: 190px;
+    width: 580px;
 }
 /* onde palesemente copiate */
 .custom-shape-divider-bottom-1636047702 {
