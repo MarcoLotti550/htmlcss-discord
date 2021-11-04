@@ -103,6 +103,7 @@ nav ul a{
     color: #000;
     padding: 10px 15px;
 }
+/* prima immagine study group e terza */
 .prima-box{
     width: 100%;
     height: 600px;
@@ -122,19 +123,90 @@ nav ul a{
     display: inline-block;
     float: left;
 }
-.box-study h1{   
-    font-size: 40px;
-    text-align: center;
+.box-study h1,
+.box-chilling h1{   
+    font-size: 45px;
     vertical-align: middle;
+}
+.box-study p, 
+.box-chilling p{
+    margin: 30px 0;
+    line-height: 30px;
 }
 .box-study .destra{
     float: right;
     display: inline-block;
-    width: 49%;
+    width: 25%;
     height: 100%;
+    text-align: left;
+    margin: 30px 5%;
 }
+/* seconda box just chiling */
 .prima-box::after{
     clear: both;
     display: block;
     content: "";
+}
+.seconda-box{
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    height: 800px;
+    position: relative;
+    top: 700px;
+    left: 0%;
+}
+.box-chilling{
+    width: 70%;
+    height: 100%;
+    padding-top: 100px;
+    margin: auto;
+}
+.sinistra2{
+    margin-top: 30px;
+    float: left;
+    width: 25%;
+}
+.destra2{
+    float: right;
+    width: 45%;
+}
+/* onde palesemente copiate */
+.custom-shape-divider-bottom-1636047702 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1636047702 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 81px;
+}
+
+.custom-shape-divider-bottom-1636047702 .shape-fill {
+    fill: #FFFFFF;
+}
+.custom-shape-divider-top-1636047756 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1636047756 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 81px;
+}
+
+.custom-shape-divider-top-1636047756 .shape-fill {
+    fill: #FFFFFF;
 }
